@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- Copyright (C) 2015 Brennced. All rights reserved.
+   
+     http://brennced.deviantart.com/
+     http://brennced.github.io/                        -->
+<html>
+	<head>
+		<link rel="stylesheet" href="plastic_buttons.css">
+		<meta charset="utf-8">
+		<title>Plastic buttons Demo</title>
+		<style>
+			body {
+				font-family: 'Arial', sans-serif;
+			}
+			#classname, #classnamed {
+				display: inline-block;
+				margin-top: 15px;
+				font-size: 9pt;
+			}
+			kbd {
+				background-color: #f0f0f0;
+				vertical-align: middle;
+			}
+		</style>
+		<script>
+			function init() {
+				document.getElementById('classname').innerHTML = "<i>Click a button to display class</i>";
+				var buttons = document.getElementsByTagName('button');
+				for (var elem of buttons) {
+					elem.addEventListener('click', function() {
+						changeClass(this);
+					});
+				}
+			}
+			function changeClass(sender) {
+				document.getElementById('classname').innerHTML = "class=\"" + sender.className + "\"";
+			}
+			window.onload = init;
+		</script>
+	</head>
+	<body>
+		<button id="demo-green" class="brennced-controls plasticbutton green">Green</button>
+		<button id="demo-red" class="brennced-controls plasticbutton red">Red</button>
+		<button id="demo-blue" class="brennced-controls plasticbutton blue">Blue</button>
+		<button id="demo-yellow" class="brennced-controls plasticbutton yellow">Yellow</button>
+		<button id="demo-purple" class="brennced-controls plasticbutton purple">Purple</button>
+		<br />
+		<span id="classname"></span>
+		<br />
+		<p>
+			Plasticbuttons work best on <kbd>&lt;input&gt;</kbd> and <kbd>&lt;button&gt;</kbd> elements.
+		</p>
+	</body>
+</html>
