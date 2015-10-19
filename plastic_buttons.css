@@ -1,0 +1,207 @@
+/* ------------------------------------------------- */
+
+/* Copyright (C) 2015 Brennced. All rights reserved.
+   
+   ## PLEASE CREDIT ME WHEN USING THIS STYLESHEET ##
+   
+   http://brennced.deviantart.com/
+   http://brennced.github.io/
+   
+   Version: 1.0                                      */
+
+/* ------------------------------------------------- */
+
+/* General appearance */
+.brennced-controls.plasticbutton {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 5px 8px;
+	font-family: sans-serif;
+	font-size: 11pt;
+	border-width: 1px;
+	border-style: solid;
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.5) inset;
+	cursor: pointer;
+	text-shadow: 0px 1px 0.5px rgba(0,0,0,0.5);
+}
+.brennced-controls.plasticbutton:hover {
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.5) inset, 0px -1px 1px rgba(0,0,0,0.1) inset;
+}
+.brennced-controls.plasticbutton:active {
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.33) inset;
+}
+
+/* Colors */
+/* Green */
+.brennced-controls.plasticbutton.green {
+	color: white;
+	background: rgb(194,210,104);
+	background: -moz-linear-gradient(top,  rgba(194,210,104,1) 0%, rgba(108,125,23,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(194,210,104,1)), color-stop(100%,rgba(108,125,23,1)));
+	background: -webkit-linear-gradient(top,  rgba(194,210,104,1) 0%,rgba(108,125,23,1) 100%);
+	background: -o-linear-gradient(top,  rgba(194,210,104,1) 0%,rgba(108,125,23,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(194,210,104,1) 0%,rgba(108,125,23,1) 100%);
+	background: linear-gradient(to bottom,  rgba(194,210,104,1) 0%,rgba(108,125,23,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d268', endColorstr='#6c7d17',GradientType=0 );
+	border-color: rgba(77,85,26,1);
+}
+.brennced-controls.plasticbutton.green:hover {
+	background: rgb(206,215,155);
+	background: -moz-linear-gradient(top,  rgba(206,215,155,1) 0%, rgba(172,196,56,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,215,155,1)), color-stop(100%,rgba(172,196,56,1)));
+	background: -webkit-linear-gradient(top,  rgba(206,215,155,1) 0%,rgba(172,196,56,1) 100%);
+	background: -o-linear-gradient(top,  rgba(206,215,155,1) 0%,rgba(172,196,56,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(206,215,155,1) 0%,rgba(172,196,56,1) 100%);
+	background: linear-gradient(to bottom,  rgba(206,215,155,1) 0%,rgba(172,196,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ced79b', endColorstr='#acc438',GradientType=0 );
+}
+.brennced-controls.plasticbutton.green:active {
+	background: rgb(64,73,21);
+	background: -moz-linear-gradient(top,  rgba(64,73,21,1) 0%, rgba(88,102,12,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,73,21,1)), color-stop(100%,rgba(88,102,12,1)));
+	background: -webkit-linear-gradient(top,  rgba(64,73,21,1) 0%,rgba(88,102,12,1) 100%);
+	background: -o-linear-gradient(top,  rgba(64,73,21,1) 0%,rgba(88,102,12,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(64,73,21,1) 0%,rgba(88,102,12,1) 100%);
+	background: linear-gradient(to bottom,  rgba(64,73,21,1) 0%,rgba(88,102,12,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404915', endColorstr='#58660c',GradientType=0 );
+}
+
+/* Red */
+.brennced-controls.plasticbutton.red {
+	color: white;
+	background: rgb(210,104,106);
+	background: -moz-linear-gradient(top,  rgba(210,104,106,1) 0%, rgba(125,23,23,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(210,104,106,1)), color-stop(100%,rgba(125,23,23,1)));
+	background: -webkit-linear-gradient(top,  rgba(210,104,106,1) 0%,rgba(125,23,23,1) 100%);
+	background: -o-linear-gradient(top,  rgba(210,104,106,1) 0%,rgba(125,23,23,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(210,104,106,1) 0%,rgba(125,23,23,1) 100%);
+	background: linear-gradient(to bottom,  rgba(210,104,106,1) 0%,rgba(125,23,23,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2686a', endColorstr='#7d1717',GradientType=0 );
+	border-color: rgba(85,26,26,1);
+}
+.brennced-controls.plasticbutton.red:hover {
+	background: rgb(215,155,156);
+	background: -moz-linear-gradient(top,  rgba(215,155,156,1) 0%, rgba(196,56,56,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(215,155,156,1)), color-stop(100%,rgba(196,56,56,1)));
+	background: -webkit-linear-gradient(top,  rgba(215,155,156,1) 0%,rgba(196,56,56,1) 100%);
+	background: -o-linear-gradient(top,  rgba(215,155,156,1) 0%,rgba(196,56,56,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(215,155,156,1) 0%,rgba(196,56,56,1) 100%);
+	background: linear-gradient(to bottom,  rgba(215,155,156,1) 0%,rgba(196,56,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d79b9c', endColorstr='#c43838',GradientType=0 );
+}
+.brennced-controls.plasticbutton.red:active {
+	background: rgb(73,21,21);
+	background: -moz-linear-gradient(top,  rgba(73,21,21,1) 0%, rgba(102,12,14,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(73,21,21,1)), color-stop(100%,rgba(102,12,14,1)));
+	background: -webkit-linear-gradient(top,  rgba(73,21,21,1) 0%,rgba(102,12,14,1) 100%);
+	background: -o-linear-gradient(top,  rgba(73,21,21,1) 0%,rgba(102,12,14,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(73,21,21,1) 0%,rgba(102,12,14,1) 100%);
+	background: linear-gradient(to bottom,  rgba(73,21,21,1) 0%,rgba(102,12,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#491515', endColorstr='#660c0e',GradientType=0 );
+}
+
+/* Blue */
+.brennced-controls.plasticbutton.blue {
+	color: white;
+	background: rgb(104,141,210);
+	background: -moz-linear-gradient(top,  rgba(104,141,210,1) 0%, rgba(23,57,125,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(104,141,210,1)), color-stop(100%,rgba(23,57,125,1)));
+	background: -webkit-linear-gradient(top,  rgba(104,141,210,1) 0%,rgba(23,57,125,1) 100%);
+	background: -o-linear-gradient(top,  rgba(104,141,210,1) 0%,rgba(23,57,125,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(104,141,210,1) 0%,rgba(23,57,125,1) 100%);
+	background: linear-gradient(to bottom,  rgba(104,141,210,1) 0%,rgba(23,57,125,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#688dd2', endColorstr='#17397d',GradientType=0 );
+	border-color: rgba(26,45,85,1);
+}
+.brennced-controls.plasticbutton.blue:hover {
+	background: rgb(155,176,215);
+	background: -moz-linear-gradient(top,  rgba(155,176,215,1) 0%, rgba(56,103,196,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,176,215,1)), color-stop(100%,rgba(56,103,196,1)));
+	background: -webkit-linear-gradient(top,  rgba(155,176,215,1) 0%,rgba(56,103,196,1) 100%);
+	background: -o-linear-gradient(top,  rgba(155,176,215,1) 0%,rgba(56,103,196,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(155,176,215,1) 0%,rgba(56,103,196,1) 100%);
+	background: linear-gradient(to bottom,  rgba(155,176,215,1) 0%,rgba(56,103,196,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bb0d7', endColorstr='#3867c4',GradientType=0 );
+}
+.brennced-controls.plasticbutton.blue:active {
+	background: rgb(21,38,73);
+	background: -moz-linear-gradient(top,  rgba(21,38,73,1) 0%, rgba(12,44,102,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(21,38,73,1)), color-stop(100%,rgba(12,44,102,1)));
+	background: -webkit-linear-gradient(top,  rgba(21,38,73,1) 0%,rgba(12,44,102,1) 100%);
+	background: -o-linear-gradient(top,  rgba(21,38,73,1) 0%,rgba(12,44,102,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(21,38,73,1) 0%,rgba(12,44,102,1) 100%);
+	background: linear-gradient(to bottom,  rgba(21,38,73,1) 0%,rgba(12,44,102,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#152649', endColorstr='#0c2c66',GradientType=0 );
+}
+
+/* Yellow */
+.brennced-controls.plasticbutton.yellow {
+	color: white;
+	background: rgb(210,182,104);
+	background: -moz-linear-gradient(top,  rgba(210,182,104,1) 0%, rgba(125,100,23,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(210,182,104,1)), color-stop(100%,rgba(125,100,23,1)));
+	background: -webkit-linear-gradient(top,  rgba(210,182,104,1) 0%,rgba(125,100,23,1) 100%);
+	background: -o-linear-gradient(top,  rgba(210,182,104,1) 0%,rgba(125,100,23,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(210,182,104,1) 0%,rgba(125,100,23,1) 100%);
+	background: linear-gradient(to bottom,  rgba(210,182,104,1) 0%,rgba(125,100,23,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2b668', endColorstr='#7d6417',GradientType=0 );
+	border-color: rgba(85,69,26,1);
+}
+.brennced-controls.plasticbutton.yellow:hover {
+	background: rgb(215,199,155);
+	background: -moz-linear-gradient(top,  rgba(215,199,155,1) 0%, rgba(196,161,56,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(215,199,155,1)), color-stop(100%,rgba(196,161,56,1)));
+	background: -webkit-linear-gradient(top,  rgba(215,199,155,1) 0%,rgba(196,161,56,1) 100%);
+	background: -o-linear-gradient(top,  rgba(215,199,155,1) 0%,rgba(196,161,56,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(215,199,155,1) 0%,rgba(196,161,56,1) 100%);
+	background: linear-gradient(to bottom,  rgba(215,199,155,1) 0%,rgba(196,161,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7c79b', endColorstr='#c4a138',GradientType=0 );
+}
+.brennced-controls.plasticbutton.yellow:active {
+	background: rgb(73,60,21);
+	background: -moz-linear-gradient(top,  rgba(73,60,21,1) 0%, rgba(102,78,12,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(73,60,21,1)), color-stop(100%,rgba(102,78,12,1)));
+	background: -webkit-linear-gradient(top,  rgba(73,60,21,1) 0%,rgba(102,78,12,1) 100%);
+	background: -o-linear-gradient(top,  rgba(73,60,21,1) 0%,rgba(102,78,12,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(73,60,21,1) 0%,rgba(102,78,12,1) 100%);
+	background: linear-gradient(to bottom,  rgba(73,60,21,1) 0%,rgba(102,78,12,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#493c15', endColorstr='#664e0c',GradientType=0 );
+}
+
+/* Purple */
+.brennced-controls.plasticbutton.purple {
+	color: white;
+	background: rgb(155,104,210);
+	background: -moz-linear-gradient(top,  rgba(155,104,210,1) 0%, rgba(74,23,125,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,104,210,1)), color-stop(100%,rgba(74,23,125,1)));
+	background: -webkit-linear-gradient(top,  rgba(155,104,210,1) 0%,rgba(74,23,125,1) 100%);
+	background: -o-linear-gradient(top,  rgba(155,104,210,1) 0%,rgba(74,23,125,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(155,104,210,1) 0%,rgba(74,23,125,1) 100%);
+	background: linear-gradient(to bottom,  rgba(155,104,210,1) 0%,rgba(74,23,125,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b68d2', endColorstr='#4a177d',GradientType=0 );
+	border-color: rgba(54,26,85,1);
+}
+.brennced-controls.plasticbutton.purple:hover {
+	background: rgb(184,155,215);
+	background: -moz-linear-gradient(top,  rgba(184,155,215,1) 0%, rgba(126,56,196,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(184,155,215,1)), color-stop(100%,rgba(126,56,196,1)));
+	background: -webkit-linear-gradient(top,  rgba(184,155,215,1) 0%,rgba(126,56,196,1) 100%);
+	background: -o-linear-gradient(top,  rgba(184,155,215,1) 0%,rgba(126,56,196,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(184,155,215,1) 0%,rgba(126,56,196,1) 100%);
+	background: linear-gradient(to bottom,  rgba(184,155,215,1) 0%,rgba(126,56,196,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b89bd7', endColorstr='#7e38c4',GradientType=0 );
+}
+.brennced-controls.plasticbutton.purple:active {
+	background: rgb(47,21,73);
+	background: -moz-linear-gradient(top,  rgba(47,21,73,1) 0%, rgba(56,12,102,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(47,21,73,1)), color-stop(100%,rgba(56,12,102,1)));
+	background: -webkit-linear-gradient(top,  rgba(47,21,73,1) 0%,rgba(56,12,102,1) 100%);
+	background: -o-linear-gradient(top,  rgba(47,21,73,1) 0%,rgba(56,12,102,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(47,21,73,1) 0%,rgba(56,12,102,1) 100%);
+	background: linear-gradient(to bottom,  rgba(47,21,73,1) 0%,rgba(56,12,102,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f1549', endColorstr='#380c66',GradientType=0 );
+}
